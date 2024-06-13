@@ -1,0 +1,19 @@
+body {
+    background-image: url(/imgs/1.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+}
+
+.next {
+    position: absolute;
+    bottom: -425px;
+    right: 20px;
+    border: 5px;
+    border: color(srgb red green blue);
+    border-style: dashed;
+}
+
+.next:hover {
+    color: red;
+}

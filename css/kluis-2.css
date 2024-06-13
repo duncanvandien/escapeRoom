@@ -1,0 +1,46 @@
+
+body {
+    background-image: url(/imgs/Default_bank_vault_0_59ea39d0-eb31-498b-9fd1-7302618c6974_1.jpg);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+:root{
+    --keypad-black:rgb(121, 120, 74);
+    --keypad-yellow:rgb(220, 217, 133);
+}
+
+.number{
+    font-size: 16pt;
+    border-radius: 10px;
+    padding:10px;
+    width:50px;
+    height:50px;
+    background-image: linear-gradient(var(--keypad-black), var(--keypad-yellow))
+}
+.number.code_input{
+    right: 10%;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+}
+img.game-item.keypad{
+    position: absolute;
+    width: 10%;
+    right: 20%;
+    bottom: 40%;
+}
+.game-item.game-item.num-pad{
+    position: absolute;
+    width: 163px;
+    right: 20%;
+    bottom: 40%;
+    border-radius: 4px;
+    background-color: var(--keypad-yellow);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}

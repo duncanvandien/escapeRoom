@@ -1,0 +1,26 @@
+body {
+    background-image: url(/imgs/helicopter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.compass {
+    width:250px;
+    top:45vh;
+    left:80vw;
+    transform:rotate(0deg);
+}
+
+.doolhof {
+    width: 550px;
+    height:550px;
+    top: 15vh;
+    left: 35vw;
+}
+
+.cirkel {
+    position:absolute;
+    width: 20px;
+    top: 280px;
+    left: 750px;
+}

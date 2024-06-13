@@ -1,0 +1,18 @@
+.next {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    border: 5px;
+    border: color(srgb red green blue);
+    border-style: dashed;
+}
+
+.next:hover {
+    color: red;
+}
+
+body {
+    background-image: url(/imgs/bus\ hack.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

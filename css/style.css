@@ -1,0 +1,29 @@
+body{
+    overflow: hidden;
+}
+main.game-screen{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.game-item{
+    position:absolute;
+}
+
+
+img.game-item.talkie{
+position: absolute;
+right: 0%;
+bottom: 4%;
+width: 10%;
+}
+
+img.game-item.bubble{
+position: absolute;
+width: 20%;
+right: 7%;
+bottom: 10%;
+}
